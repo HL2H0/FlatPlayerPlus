@@ -549,7 +549,8 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<Compile Include="src\Mod.cs" />
+		<Compile Include="Mod.cs" />
+		<Compile Include="srv\Mod.cs" />
 	</ItemGroup>
 	
 	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
