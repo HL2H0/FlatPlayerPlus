@@ -74,6 +74,7 @@ namespace FlatPlayerPlus
 
             if (Input.GetKey(KeyCode.W) && Player.RigManager.activeSeat)
                 Player.RightController._thumbstickAxis = new Vector2(0, 1);
+
             if (Input.GetKeyDown(KeyCode.LeftControl))
                 Player.LeftController._thumbstickDown = true;
         }
